@@ -8,7 +8,9 @@
   }
   
   function pressIt(){
-    alert ("You did it!");
+    $('input#typing').on('keydown',function(e){
+    if (e.which === 71){ pressIt(); }
+  });
   }
   
   function submitIt(){
@@ -19,9 +21,7 @@ $(document).ready(function(){
   // call functions here
   $('p').on('click',getIt);//.on same as .click
   $('img').on('load', frameIt);
-  $('input#typing').on('keydown',function(e){
-    if (e.which === 71){ pressIt(); }
-  });
+  pressIt();
   $('form').on('submit',submitIt);
   
 });
