@@ -8,7 +8,8 @@
   }
   
   function pressIt(){
-    alert(event.which);
+    key = event.which;
+    trigger = 71
   }
   
   function submitIt(){
