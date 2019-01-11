@@ -8,12 +8,7 @@
   }
   
   function pressIt(){
-    /*if(event.key === "g"){
-      alert("You did it");
-    } */
-    if(this.key == "g"){
-      alert("You really did it");
-    }
+    alert ("You did it!");
   }
   
   function submitIt(){
