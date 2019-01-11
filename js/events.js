@@ -8,7 +8,7 @@
   }
   
   function pressIt(){
-    if(this.key === 71){
+    if(this.which === 71){
       alert("You did it!");
     }
   }
