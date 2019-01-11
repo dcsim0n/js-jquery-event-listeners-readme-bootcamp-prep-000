@@ -19,5 +19,6 @@ $(document).ready(function(){
   // call functions here
   $('p').on('click',getIt);//.on same as .click
   $('img').on('load', frameIt);
+  $()
   
 });
