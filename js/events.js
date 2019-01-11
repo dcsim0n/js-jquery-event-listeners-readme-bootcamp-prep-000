@@ -8,13 +8,7 @@
   }
   
   function pressIt(){
-    alert("pressed" + this.event.key)
-    if (this.which === '71'){
-      alert("You really pressed it now");
-    }
-    if(this.key === "G"){
-      alert("You really really done it now!");
-    }
+    alert(this.key);
   }
   
   function submitIt(){
