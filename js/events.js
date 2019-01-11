@@ -8,7 +8,7 @@
   }
   
   function pressIt(){
-    $('#typing').on('keyup',function(e){
+    $('#typing').on('keydown',function(e){
     if (e.which === 71){ 
       alert("You did it!"); 
       
