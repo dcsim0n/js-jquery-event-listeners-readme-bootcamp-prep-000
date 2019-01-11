@@ -25,7 +25,7 @@ $(document).ready(function(){
   // call functions here
   $('p').on('click',getIt);//.on same as .click
   $('img').on('load', frameIt);
-  $('input#typing').on('keydown',pressIt);
+  $('input#typing').on('keydown',pressIt(this));
   $('form').on('submit',submitIt);
   
 });
