@@ -8,7 +8,7 @@
   }
   
   function pressIt(){
-    key = event.which;
+    key = this.which;
     trigger = 71;
     if(key === trigger){
       alert("Did you mean to press G?");
