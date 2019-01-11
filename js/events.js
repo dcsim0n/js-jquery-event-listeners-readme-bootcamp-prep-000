@@ -8,7 +8,7 @@
   }
   
   function pressIt(){
-    if (this.which === 71){
+    if (this.which === '71'){
       alert("You really pressed it now");
     }
     if(this.key === "G"){
