@@ -8,7 +8,9 @@
   }
   
   function pressIt(){
-    alert(this.key);
+    if(this.key === "G"){
+      alert("You did it!");
+    }
   }
   
   function submitIt(){
