@@ -8,7 +8,7 @@
   }
   
   function pressIt(){
-    $('input#typing').on('keypress',function(event){
+    $('input#typing').on('keyup',function(event){
     if (event.which === 71){ pressIt(); }
   });
   }
