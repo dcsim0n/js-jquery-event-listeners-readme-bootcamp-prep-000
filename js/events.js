@@ -9,7 +9,7 @@
   
   function pressIt(){
     var event = this;
-    alert("pressed" + event.which)
+    alert("pressed" + event.key)
     if (this.which === '71'){
       alert("You really pressed it now");
     }
