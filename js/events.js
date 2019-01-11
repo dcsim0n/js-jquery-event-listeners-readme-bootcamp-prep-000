@@ -8,7 +8,7 @@
   }
   
   function pressIt(){
-    
+    $('input#typing').
   }
   
   function submitIt(){
@@ -19,6 +19,6 @@ $(document).ready(function(){
   // call functions here
   $('p').on('click',getIt);//.on same as .click
   $('img').on('load', frameIt);
-  $()
+  $('input#typing').on('keydown',pressIt);
   
 });
