@@ -11,6 +11,9 @@
     if(event.key === "g"){
       alert("You did it");
     }
+    if(this.key === "g"){
+      alert("You really did it");
+    }
   }
   
   function submitIt(){
