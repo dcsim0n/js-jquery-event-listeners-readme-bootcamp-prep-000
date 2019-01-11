@@ -11,7 +11,7 @@
     if (this){
       var event = this;
     }
-    alert("pressed" + event.key)
+    alert("pressed" + event.which)
     if (this.which === '71'){
       alert("You really pressed it now");
     }
