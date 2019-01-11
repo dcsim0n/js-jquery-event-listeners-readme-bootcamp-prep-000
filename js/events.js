@@ -4,7 +4,7 @@
   }
   
   function frameIt(){
-    $('img').addClass('')
+    $('img').addClass('tasty');
   }
   
   function pressIt(){
