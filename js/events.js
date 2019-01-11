@@ -8,7 +8,7 @@
   }
   
   function pressIt(){
-    if (event.key === "G"){
+    if (this.key === "G"){
       alert("You really pressed it now");
     }
   }
