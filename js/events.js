@@ -9,7 +9,7 @@
   
   function pressIt(){
     
-    if (this.which === 71){ 
+    if (event.which === 71){ 
       alert("You did it!"); 
     }
   }
