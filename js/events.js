@@ -10,7 +10,9 @@
   function pressIt(){
     $('input#typing').on('keyup',function(e){
     if (e.which === 71){ 
-      alert("You did it!"); }
+      alert("You did it!"); 
+      
+    }
   });
   }
   
