@@ -8,8 +8,8 @@
   }
   
   function pressIt(){
-    $('input#typing').on('keydown',function(e){
-    if (e.which === 71){ pressIt(); }
+    $('input#typing').on('keydown',function(event){
+    if (event.which === 71){ pressIt(); }
   });
   }
   
