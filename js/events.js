@@ -9,7 +9,10 @@
   
   function pressIt(){
     key = event.which;
-    trigger = 71
+    trigger = 71;
+    if(key === trigger){
+      alert("Did you mean to press G?")
+    }
   }
   
   function submitIt(){
