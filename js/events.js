@@ -11,7 +11,7 @@
     if (this.key === "G"){
       alert("You really pressed it now");
     }
-    if(event.key ==="G"){
+    if(this.key === "G"){
       alert("You really really done it now!");
     }
   }
