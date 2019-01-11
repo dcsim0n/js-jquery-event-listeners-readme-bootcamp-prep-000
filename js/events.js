@@ -8,7 +8,7 @@
   }
   
   function pressIt(){
-    $('input#typing').
+    alert(this.which);
   }
   
   function submitIt(){
