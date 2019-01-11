@@ -22,7 +22,7 @@ $(document).ready(function(){
   // call functions here
   $('p').on('click',getIt);//.on same as .click
   $('img').on('load', frameIt);
-  $('input#typing').on('keydown',pressIt(event));
+  $('input#typing').on('keydown',pressIt);
   $('form').on('submit',submitIt);
   
 });
