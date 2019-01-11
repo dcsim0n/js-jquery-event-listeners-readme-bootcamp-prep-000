@@ -11,7 +11,6 @@
     if (event.key === "G"){
       alert("You really pressed it now");
     }
-    }
   }
   
   function submitIt(){
