@@ -4,7 +4,7 @@
   }
   
   function frameIt(){
-    
+    $('img').
   }
   
   function pressIt(){
