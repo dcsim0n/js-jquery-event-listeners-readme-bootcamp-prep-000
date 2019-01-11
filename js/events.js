@@ -8,10 +8,9 @@
   }
   
   function pressIt(){
-    key = this.which;
-    trigger = 71;
-    if(key === trigger){
-      alert("Did you mean to press G?");
+    if (event.key === "G"){
+      alert("You really pressed it now");
+    }
     }
   }
   
