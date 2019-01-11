@@ -17,7 +17,7 @@
 $(document).ready(function(){
 
   // call functions here
-  $('p').click(getIt);
+  $('p').on('click',getIt);
   
   
 });
