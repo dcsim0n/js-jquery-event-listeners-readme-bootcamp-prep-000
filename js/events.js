@@ -8,9 +8,8 @@
   }
   
   function pressIt(){
-    alert (event.key)
-    if(this.which === 71){
-      alert("You did it!");
+    if(event.key === "g"){
+      alert("You did it");
     }
   }
   
