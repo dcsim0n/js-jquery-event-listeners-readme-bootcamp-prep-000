@@ -18,6 +18,6 @@ $(document).ready(function(){
 
   // call functions here
   $('p').on('click',getIt);//.on same as .click
-  $('img').load(frameIt);
+  $('img').on('load', frameIt);
   
 });
