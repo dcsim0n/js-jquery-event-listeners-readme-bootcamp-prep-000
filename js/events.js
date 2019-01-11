@@ -8,7 +8,7 @@
   }
   
   function pressIt(){
-    alert(this.which);
+    alert(event.which);
   }
   
   function submitIt(){
